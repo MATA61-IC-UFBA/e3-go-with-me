@@ -18,7 +18,25 @@
 
 \"([^\\\n]|\\n|\\0)*\" { return STR; }
 
-[\+\-\*\/\%\!\<\>\=\:\;\,\(\)\[\]\{\}\\] { return SYM; }
+"+"         { return ADD; }
+"-"         { return SUBTRACT; }
+"*"         { return MULTIPLY; }
+"/"         { return DIVIDE; }
+"%"         { return MOD; }
+"!"         { return NOT; }
+"<"         { return LESS; }
+">"         { return GREATER; }
+"="         { return EQUAL; }
+":"         { return COLON; }
+";"         { return SEMICOLON; }
+","         { return COMMA; }
+"("         { return OPAREN; }
+")"         { return CPAREN; }
+"["         { return OBRACKET; }
+"]"         { return CBRACKET; }
+"{"         { return OBRACE; }
+"}"         { return CBRACE; }
+"\\"        { return BACKSLASH; }
 
 (\<\=|\>\=|\=\=|\!\=|\&\&|\|\|) { return SYMC; }
 

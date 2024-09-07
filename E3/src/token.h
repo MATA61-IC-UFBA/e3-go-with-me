@@ -4,7 +4,26 @@ typedef enum {
         ID = 256, 
 	NUM, 
         KEY,
-        SYM,  
+        ADD,                      // +
+        SUBTRACT,                 // -
+        MULTIPLY,                 // *
+        DIVIDE,                   // /
+        MOD,                      // %
+        NOT,                      // !
+        LESS,                     // <
+        GREATER,                  // >
+        EQUAL,                    // =
+        COLON,                    // :
+        SEMICOLON,                // ;
+        COMMA,                    // ,
+        OPAREN,                   // (
+        CPAREN,                   // )
+        OBRACKET,                 // [
+        CBRACKET,                 // ]
+        OBRACE,                   // {
+        CBRACE,                   // }
+        BACKSLASH,                // \  
+        
         SYMC, 
         CHAR,
 	STR,
