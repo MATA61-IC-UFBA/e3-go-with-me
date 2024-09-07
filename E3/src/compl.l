@@ -26,7 +26,7 @@
 "!"         { return NOT; }
 "<"         { return LESS; }
 ">"         { return GREATER; }
-"="         { return EQUAL; }
+"="         { return ATTRIBUTE; }
 ":"         { return COLON; }
 ";"         { return SEMICOLON; }
 ","         { return COMMA; }

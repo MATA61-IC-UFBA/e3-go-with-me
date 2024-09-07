@@ -12,7 +12,7 @@ typedef enum {
         NOT,                      // !
         LESS,                     // <
         GREATER,                  // >
-        EQUAL,                    // =
+        ATTRIBUTE,                // =
         COLON,                    // :
         SEMICOLON,                // ;
         COMMA,                    // ,
