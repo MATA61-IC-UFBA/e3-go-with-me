@@ -25,16 +25,16 @@ typedef enum {
         // BACKSLASH,
         LEQUAL,                   // <=
         GEQUAL,                   // >=  
+        KEY_ELSE,
         EQUAL,                    // ==  
         NEQUAL,                   // !=  
         AND,                      // &&  
-        OR,                       // ||
         KEY_IF,
-        KEY_ARRAY,
+        OR,                       // ||
         KEY_PRINT,
+        KEY_ARRAY,
         KEY_BOOLEAN,
         KEY_CHAR,
-        KEY_ELSE,
         KEY_FALSE,
         KEY_FOR,
         KEY_FUNCTION,
