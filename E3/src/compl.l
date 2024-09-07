@@ -18,25 +18,25 @@
 
 \"([^\\\n]|\\n|\\0)*\" { return STR; }
 
-"+"         { return ADD; }
-"-"         { return SUBTRACT; }
-"*"         { return MULTIPLY; }
-"/"         { return DIVIDE; }
-"%"         { return MOD; }
-"!"         { return NOT; }
-"<"         { return LESS; }
-">"         { return GREATER; }
-"="         { return ATTRIBUTE; }
-":"         { return COLON; }
-";"         { return SEMICOLON; }
-","         { return COMMA; }
-"("         { return OPAREN; }
-")"         { return CPAREN; }
-"["         { return OBRACKET; }
-"]"         { return CBRACKET; }
-"{"         { return OBRACE; }
-"}"         { return CBRACE; }
-"\\"        { return BACKSLASH; }
+"+"         { return '+'; }
+"-"         { return '-'; }
+"*"         { return '*'; }
+"/"         { return '/'; }
+"%"         { return '%'; }
+"!"         { return '!'; }
+"<"         { return '<'; }
+">"         { return '>'; }
+"="         { return '='; }
+":"         { return ':'; }
+";"         { return ';'; }
+","         { return ','; }
+"("         { return '('; }
+")"         { return ')'; }
+"["         { return '['; }
+"]"         { return ']'; }
+"{"         { return '{'; }
+"}"         { return '}'; }
+"\\"        { return '\\'; }
 
 "<="        { return LEQUAL; }
 ">="        { return GEQUAL; }
