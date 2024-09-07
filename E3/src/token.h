@@ -22,23 +22,23 @@ typedef enum {
         // CBRACKET,                 // ]
         // OBRACE,                   // {
         // CBRACE,                   // }
-        BACKSLASH,
+        // BACKSLASH,
         LEQUAL,                   // <=
         GEQUAL,                   // >=  
         EQUAL,                    // ==  
         NEQUAL,                   // !=  
         AND,                      // &&  
         OR,                       // ||
+        KEY_IF,
         KEY_ARRAY,
+        KEY_PRINT,
         KEY_BOOLEAN,
         KEY_CHAR,
         KEY_ELSE,
         KEY_FALSE,
         KEY_FOR,
         KEY_FUNCTION,
-        KEY_IF,
         KEY_INTEGER,
-        KEY_PRINT,
         KEY_RETURN,
         KEY_STRING,
         KEY_TRUE,
