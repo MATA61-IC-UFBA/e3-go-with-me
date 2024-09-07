@@ -45,7 +45,21 @@
 "&&"        { return AND; }
 "||"        { return OR; }
 
-(array|boolean|char|else|false|for|function|if|integer|print|return|string|true|void|while) {return KEY; }
+"array"     { return KEY_ARRAY; }
+"boolean"   { return KEY_BOOLEAN; }
+"char"      { return KEY_CHAR; }
+"else"      { return KEY_ELSE; }
+"false"     { return KEY_FALSE; }
+"for"       { return KEY_FOR; }
+"function"  { return KEY_FUNCTION; }
+"if"        { return KEY_IF; }
+"integer"   { return KEY_INTEGER; }
+"print"     { return KEY_PRINT; }
+"return"    { return KEY_RETURN; }
+"string"    { return KEY_STRING; }
+"true"      { return KEY_TRUE; }
+"void"      { return KEY_VOID; }
+"while"     { return KEY_WHILE; }
 
 [0-9]* { return NUM; }
 
