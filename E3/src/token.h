@@ -22,8 +22,13 @@ typedef enum {
         CBRACKET,                 // ]
         OBRACE,                   // {
         CBRACE,                   // }
-        BACKSLASH,                // \  
-        
+        BACKSLASH,
+        LEQUAL,                   // <=
+        GEQUAL,                   // >=  
+        EQUAL,                    // ==  
+        NEQUAL,                   // !=  
+        AND,                      // &&  
+        OR,                       // ||
         SYMC, 
         CHAR,
 	STR,

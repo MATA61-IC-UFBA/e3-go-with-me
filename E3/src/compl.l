@@ -38,7 +38,12 @@
 "}"         { return CBRACE; }
 "\\"        { return BACKSLASH; }
 
-(\<\=|\>\=|\=\=|\!\=|\&\&|\|\|) { return SYMC; }
+"<="        { return LEQUAL; }
+">="        { return GEQUAL; }
+"=="        { return EQUAL; }
+"!="        { return NEQUAL; }
+"&&"        { return AND; }
+"||"        { return OR; }
 
 (array|boolean|char|else|false|for|function|if|integer|print|return|string|true|void|while) {return KEY; }
 
